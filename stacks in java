@@ -1,0 +1,24 @@
+import java.util.*;
+
+class stack{
+    public static void main (String args[]){
+        Stack <String> s =new Stack<>();
+        s.push("java");
+        s.push("python");
+        
+        
+        System.out.println("display items");
+        System.out.println("the stack size is"+s.size());
+
+        while(!s.empty()){
+          System.out.println(s.pop());  
+        }
+         System.out.println("the stack size is"+s.size());
+        if(s.size()==0){
+              System.out.println("the stack size is");
+        }
+    }
+}
+// dought after while loop
+    
+ 
